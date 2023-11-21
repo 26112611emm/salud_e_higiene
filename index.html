@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 1: Conceptos Básicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Bloque 1: Conceptos Básicos</h1>
+    <h4>Alumna: Velazquez Alvarez Emmanuel</h4>
+    <p>Grupo: 537</p>
+
+</header>
+
+<div class="container">
+    <div class="box" onclick="showInfo('Técnica')">Técnica</div>
+    <div class="box" onclick="showInfo('Higiene')">Higiene</div>
+    <div class="box" onclick="showInfo('Salud')">Salud</div>
+    <div class="box" onclick="showInfo('Enfermedad')">Enfermedad</div>
+    <div class="box" onclick="showInfo('Signos')">Signos</div>
+    <div class="box" onclick="showInfo('Síntomas')">Síntomas</div>
+    <div class="box" onclick="showInfo('Signo_vital')">Signo vital</div>
+    <div class="box" onclick="showInfo('Clínico')">Clínico</div>
+    <div class="box" onclick="showInfo('Muestreo')">Muestreo</div>
+    <div class="box" onclick="showInfo('Pulso')">Pulso</div>
+    <div class="box" onclick="showInfo('Tejido')">Tejido</div>
+    <div class="box" onclick="showInfo('Sangre')">Sangre</div>
+    <div class="box" onclick="showInfo('Presión_arterial')">Presión arterial</div>
+    <div class="box" onclick="showInfo('Autoestima')">Autoestima</div>
+    <div class="box" onclick="showInfo('Bacteria')">Bacteria</div>
+    <div class="box" onclick="showInfo('Virus')">Virus</div>
+</div>
+
+<div class="description" id="info">
+  <span class="close-btn" onclick="closeInfo()">Cerrar</span>
+  <br>
+  <p id="descriptionContent"></p>
+  <img src="tu_imagen.jpg" alt="Imagen relacionada" id="descriptionImage"  height="300" width="300" style="display: block; margin: 0 auto;">
+</div>
+
+<script src="funciones.js"></script>
+
+</body>
+</html>
